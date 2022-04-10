@@ -1,0 +1,91 @@
+header {
+  top: 0;
+  width: 100vw;
+  position: fixed;
+  padding: 2rem 0;
+  backdrop-filter: blur(3.5rem);
+}
+
+header .header__content {
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+header .header__heading {
+  color: #d1d4d7;
+  font-weight: bold;
+  font-size: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  user-select: none;
+  letter-spacing: 0.2rem;
+}
+
+header .menu__icon {
+  font-size: 3rem;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+}
+
+header .hamburgur__menu {
+  transition: 0.5s;
+}
+
+header .hamburgur__menu {
+  position: absolute;
+  padding: 1rem 2rem;
+  background-color: #ffc344;
+  top: 7rem;
+  right: 0;
+  border-radius: 1rem;
+  border-top-right-radius: 0;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+header .hamburgur__menu .menu__list {
+  text-align: start;
+}
+
+header .hamburgur__menu .menu__list li {
+  margin: 1rem 0;
+  font-size: 1.4rem;
+  color: #0d1027;
+  list-style: none;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: 0.372s;
+}
+
+header .options .moon,
+header .options .sun {
+  margin: 0 2rem;
+  cursor: pointer;
+}
+
+header .options .sun {
+  color: #f9d71c;
+}
+
+header .hamburgur__menu .menu__list li:hover {
+  background-color: #0d1027;
+  color: #d1d4d7;
+}
+
+@media only screen and (max-width: 725px) {
+  header .header__content {
+    width: 90%;
+    margin: 0 5%;
+  }
+}

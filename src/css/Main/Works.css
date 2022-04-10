@@ -1,0 +1,38 @@
+.works .text__lg {
+  margin: 3rem 0;
+}
+
+.works .works__grid {
+  width: 100%;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-column-gap: 4rem;
+}
+
+.work .work__img {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 4rem;
+  height: 15rem;
+}
+
+.work .work__img img {
+  border-radius: 4rem;
+  object-fit: cover;
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+.work .work__img img:hover {
+  transform: scale(1.1);
+}
+
+.work .work__information {
+  text-align: center;
+  padding: 1rem;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  -webkit-line-clamp: 2;
+}
