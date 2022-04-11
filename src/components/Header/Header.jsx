@@ -80,9 +80,27 @@ function Header() {
         </div>
         <div className="hamburgur__menu" style={open ? styleProps : null}>
           <ul className="menu__list">
-            <li>About Me</li>
-            <li>Skills</li>
-            <li>Projects</li>
+            <li
+              onClick={() => {
+                document.getElementById("aboutme").scrollIntoView();
+              }}
+            >
+              About Me
+            </li>
+            <li
+              onClick={() => {
+                document.getElementById("skills").scrollIntoView();
+              }}
+            >
+              Skills
+            </li>
+            <li
+              onClick={() => {
+                document.getElementById("works").scrollIntoView();
+              }}
+            >
+              Projects
+            </li>
           </ul>
         </div>
       </div>

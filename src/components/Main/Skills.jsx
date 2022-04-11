@@ -1,6 +1,6 @@
 function Skills() {
   return (
-    <section className="skills">
+    <section className="skills" id="skills">
       <h1 className="text__lg">Skills</h1>
       <p className="text__sm">
         Front End :{" "}
