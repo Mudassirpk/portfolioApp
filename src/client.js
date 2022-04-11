@@ -1,6 +1,5 @@
 import sanityClient from "@sanity/client";
-
 export default sanityClient({
-  projectId: "1jwr146u",
+  projectId: `${import.meta.env.VITE_PROJECT_ID}`,
   dataset: "production",
 });
