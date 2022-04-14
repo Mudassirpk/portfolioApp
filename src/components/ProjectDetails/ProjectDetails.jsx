@@ -61,6 +61,7 @@ function ProjectDetails() {
                     title={p.title}
                     description={p.description}
                     key={p._id}
+                    postid={p._id}
                   />
                 );
               })
