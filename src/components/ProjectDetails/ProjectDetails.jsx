@@ -23,7 +23,7 @@ function ProjectDetails() {
     window.scroll(0, 0);
     findProject();
     setTimeout(setStyles(true), 5000);
-  }, []);
+  }, [params.id]);
 
   return project ? (
     <>
