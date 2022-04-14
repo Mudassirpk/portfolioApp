@@ -8,6 +8,7 @@
   display: grid;
   grid-template-columns: 2fr 2fr;
   grid-column-gap: 4rem;
+  grid-row-gap: 2rem;
 }
 
 .work .work__img {
