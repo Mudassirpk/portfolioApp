@@ -46,7 +46,7 @@ function ProjectDetails() {
           Visit Site
         </a>
         {project.source ? (
-          <a href="" className="text__red text__sm links bg__secondary">
+          <a href={project.source} target="_blank" className="text__red text__sm links bg__secondary">
             Source Code
           </a>
         ) : null}
