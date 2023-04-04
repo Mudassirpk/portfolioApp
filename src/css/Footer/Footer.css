@@ -1,0 +1,17 @@
+footer {
+  border-top: 1px solid #373533;
+  width: 100%;
+  padding: 40px 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer h1 {
+  color: #fac172;
+  margin-bottom: 10px;
+}
+
+footer h2 {
+  color: #c9c0b5;
+}
