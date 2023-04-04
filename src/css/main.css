@@ -18,13 +18,13 @@ html {
   scroll-behavior: smooth;
 }
 
-body::-webkit-scrollbar{
-  display:none;
+body::-webkit-scrollbar {
+  display: none;
 }
 
 body {
   background-color: var(--background);
-  transition:.5s;
+  transition: 0.5s;
 }
 
 .Box {
@@ -32,18 +32,18 @@ body {
   margin: 3rem auto;
 }
 
-.Box-appear{
+.Box-appear {
   width: 550px;
-  margin-right:auto;
-  margin-left:auto;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.bg__secondary{
+.bg__secondary {
   background-color: var(--secondary);
 }
-a{
+a {
   outline: none;
-  border:none;
+  border: none;
 }
 
 .text__teal {
@@ -70,8 +70,16 @@ a{
   font-size: 1.5rem;
 }
 
+.text_bold {
+  font-weight: 600;
+}
+
+.text_bold span {
+  font-weight: normal;
+}
+
 .text__sm {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   letter-spacing: 0.1rem;
   margin: 1rem 0;
 }
@@ -93,8 +101,8 @@ img {
   object-fit: contain;
 }
 
-a{
-  text-decoration:none;
+a {
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 576px) {
