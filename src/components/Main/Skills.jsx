@@ -11,7 +11,7 @@ function Skills() {
       <p className="text__sm text_bold">
         Back End :{" "}
         <span className="text__red">
-          NodeJS , ExpressJS , MongoDb and SanityIO.
+          NodeJS , ExpressJS , MongoDb, MySQL and SanityIO.
         </span>
       </p>
       <p className="text__sm text_bold">
