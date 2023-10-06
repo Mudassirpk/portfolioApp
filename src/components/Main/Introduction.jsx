@@ -1,4 +1,4 @@
-import img from './../../Images/lion.jpg'
+import img from './../../Images/mskhan.jpg'
 import './../../css/Main/Introduction.css'
 function Introduction(){
   return(

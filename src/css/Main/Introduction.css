@@ -1,29 +1,28 @@
-.introduction{
-  width:100%;
-  display:flex;
-  flex-direction:column;
-  gap:2rem;
-  align-items:center;
+.introduction {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
   margin-top: 12rem;
 }
-.introduction .image img{
-  border-radius:50%;
-}
-.introduction .image{
-  width:20rem;
-  height:19rem;
-  min-width:20rem;
-  min-height:19rem;
-  border-radius:1rem;
-  overflow:hidden;
+
+.introduction .image {
+  width: 20rem;
+  aspect-ratio: 1/1;
+  min-width: 20rem;
+  border-radius: 1rem;
 }
 
-.introduction .information{
-  flex:1;
-  text-align:center;
-}
-.introduction .information p{
-  margin:1rem 0;
-  font-weight:600;
+.introduction .image img {
+  border-radius: 50%;
 }
 
+.introduction .information {
+  flex: 1;
+  text-align: center;
+}
+.introduction .information p {
+  margin: 1rem 0;
+  font-weight: 600;
+}
