@@ -7,7 +7,6 @@ import fetchProjects from "../../Helpers/fetchproject";
 
 function ProjectDetails() {
   const params = useParams();
-
   const [style, setStyles] = useState(false);
   const [project, setProject] = useState(null);
   const [projects, setProjects] = useState(null);
@@ -60,6 +59,7 @@ function ProjectDetails() {
                     img={p.img.asset.url}
                     title={p.title}
                     description={p.description}
+                    postid={p._id}
                     key={p._id}
                     postid={p._id}
                   />

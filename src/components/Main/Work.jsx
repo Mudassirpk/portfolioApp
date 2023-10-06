@@ -4,7 +4,7 @@ function Work({img,title,description,postid}) {
   return (
     <div className="work">
       <div className="work__img">
-        <img src={img} alt=" " />
+        <img src={img} alt="work - project" />
       </div>
       <div className="work__information">
         <Link to={`/blogpost/${postid}`}>
